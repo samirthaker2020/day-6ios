@@ -14,6 +14,11 @@
 		9BDAA4DC223433FF00362ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDAA4DA223433FF00362ED8 /* LaunchScreen.storyboard */; };
 		9BDAA4E7223433FF00362ED8 /* day_6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDAA4E6223433FF00362ED8 /* day_6Tests.swift */; };
 		9BDAA4F2223433FF00362ED8 /* day_6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDAA4F1223433FF00362ED8 /* day_6UITests.swift */; };
+		9BDAA50022343EBE00362ED8 /* canada.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDAA4FF22343EBD00362ED8 /* canada.png */; };
+		9BDAA50222343F1100362ED8 /* india.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDAA50122343F1000362ED8 /* india.png */; };
+		9BDAA50422343F1800362ED8 /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDAA50322343F1800362ED8 /* usa.png */; };
+		9BDAA5072234413300362ED8 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDAA5062234413300362ED8 /* Country.swift */; };
+		9BDAA509223441B700362ED8 /* tblCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDAA508223441B700362ED8 /* tblCountry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		9BDAA4ED223433FF00362ED8 /* day-6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day-6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDAA4F1223433FF00362ED8 /* day_6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_6UITests.swift; sourceTree = "<group>"; };
 		9BDAA4F3223433FF00362ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDAA4FF22343EBD00362ED8 /* canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canada.png; sourceTree = "<group>"; };
+		9BDAA50122343F1000362ED8 /* india.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = india.png; sourceTree = "<group>"; };
+		9BDAA50322343F1800362ED8 /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usa.png; sourceTree = "<group>"; };
+		9BDAA5062234413300362ED8 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		9BDAA508223441B700362ED8 /* tblCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tblCountry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		9BDAA4D0223433FE00362ED8 /* day-6 */ = {
 			isa = PBXGroup;
 			children = (
+				9BDAA5052234412100362ED8 /* model */,
 				9BDAA4D1223433FE00362ED8 /* AppDelegate.swift */,
 				9BDAA4D3223433FE00362ED8 /* ViewController.swift */,
 				9BDAA4D5223433FE00362ED8 /* Main.storyboard */,
 				9BDAA4D8223433FF00362ED8 /* Assets.xcassets */,
+				9BDAA50322343F1800362ED8 /* usa.png */,
+				9BDAA50122343F1000362ED8 /* india.png */,
+				9BDAA4FF22343EBD00362ED8 /* canada.png */,
 				9BDAA4DA223433FF00362ED8 /* LaunchScreen.storyboard */,
 				9BDAA4DD223433FF00362ED8 /* Info.plist */,
+				9BDAA508223441B700362ED8 /* tblCountry.swift */,
 			);
 			path = "day-6";
 			sourceTree = "<group>";
@@ -123,6 +138,14 @@
 				9BDAA4F3223433FF00362ED8 /* Info.plist */,
 			);
 			path = "day-6UITests";
+			sourceTree = "<group>";
+		};
+		9BDAA5052234412100362ED8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9BDAA5062234413300362ED8 /* Country.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BDAA4DC223433FF00362ED8 /* LaunchScreen.storyboard in Resources */,
+				9BDAA50022343EBE00362ED8 /* canada.png in Resources */,
+				9BDAA50222343F1100362ED8 /* india.png in Resources */,
+				9BDAA50422343F1800362ED8 /* usa.png in Resources */,
 				9BDAA4D9223433FF00362ED8 /* Assets.xcassets in Resources */,
 				9BDAA4D7223433FE00362ED8 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BDAA4D4223433FE00362ED8 /* ViewController.swift in Sources */,
+				9BDAA509223441B700362ED8 /* tblCountry.swift in Sources */,
+				9BDAA5072234413300362ED8 /* Country.swift in Sources */,
 				9BDAA4D2223433FE00362ED8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
