@@ -22,6 +22,7 @@ getcountrylist()
 
     func getcountrylist()
     {
+        countrylist=[]
         countrylist.append(Country(cid:1,cname:"Canada",cimage:"canada"))
          countrylist.append(Country(cid:2,cname:"USA",cimage:"usa"))
          countrylist.append(Country(cid:3,cname:"India",cimage:"india"))
